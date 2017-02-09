@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#tervituse skript
+#
+#skripti algus
+#
+#echo "Tere User!"
+echo -n "Tere, " # väljasta ilma reavahetuseta Tere,
+whoami | cut -c1 | tr [:lower:] [:upper:]
+echo "!" # väljasta ! ja tee reavahetus
+#
+#skripti lõpp
